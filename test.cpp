@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 extern "C" {
-  double fiddlesticks();
+  double fiddlesticks_();
 }
 
 int main() {
 
 	cout << "Hello world" << endl;
-        cout << fiddlesticks();
+        cout << fiddlesticks_();
 }
