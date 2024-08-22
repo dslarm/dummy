@@ -1,6 +1,7 @@
 all:
-	$(F90) fiddle.f90 -c 
-	$(CXX) test.cpp fiddle.o -larmflang -o hello
+	$(CXX) test.cpp -o hello
 
 
-install:
+clean:
+	rm -f hello
+
